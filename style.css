@@ -23,6 +23,23 @@ body {
   color: var(--text-dark);
 }
 
+/* Site Header */
+.site-header {
+  /* Short header with dark blue background */
+  background-color: var(--dark-blue);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Site Name */
+.site-name {
+  /* Large, bold site name in white */
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--white);
+  margin: 0;
+}
+
 /* Call-to-Action Banner */
 .cta-banner {
   /* Tall, visually striking banner */
