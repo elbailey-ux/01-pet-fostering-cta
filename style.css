@@ -96,3 +96,70 @@ body {
   background-color: var(--primary-teal);
   color: var(--white);
 }
+
+/* Fostering Information Section */
+.fostering-info {
+  /* Section with padding and light background */
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+/* Fostering Container */
+.fostering-container {
+  /* Centered max-width container with two-column layout */
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+/* Fostering Column */
+.fostering-column {
+  /* Evenly sized columns */
+  flex: 1;
+}
+
+/* Fostering Image */
+.fostering-image {
+  /* Full width responsive image */
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(30, 58, 95, 0.2);
+}
+
+/* Fostering Section Title */
+.fostering-title {
+  /* Large, bold title in dark blue */
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--dark-blue);
+  margin-bottom: 20px;
+}
+
+/* Fostering Description Text */
+.fostering-text {
+  /* Regular text with proper spacing */
+  font-size: 16px;
+  color: var(--text-dark);
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+/* Fostering List */
+.fostering-list {
+  /* Styled list with bullet points */
+  list-style-position: inside;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+/* Fostering List Items */
+.fostering-list li {
+  /* Individual list item styling */
+  font-size: 16px;
+  color: var(--text-dark);
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
